@@ -1,0 +1,11 @@
+kfold_file,feature,fold,model_file,val_acc,test_acc,l2_rate,dropout
+Dataset_10FoldCV_indexed.csv,xyprojection,1,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate0.1-dropout0.5-fold1.h5,0.8263157606124878,0.9005235433578491,0.1,0.5
+Dataset_10FoldCV_indexed.csv,xyprojection,2,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate0.01-dropout0.5-fold2.h5,0.9214659929275512,0.9162303805351256,0.01,0.5
+Dataset_10FoldCV_indexed.csv,xyprojection,3,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate1.0-dropout0.5-fold3.h5,0.9371727705001832,0.8952879309654236,1.0,0.5
+Dataset_10FoldCV_indexed.csv,xyprojection,4,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate0.1-dropout0.5-fold4.h5,0.9005235433578491,0.8795811533927917,0.1,0.5
+Dataset_10FoldCV_indexed.csv,xyprojection,5,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate0.1-dropout0.5-fold5.h5,0.9162303805351256,0.8691099286079407,0.1,0.5
+Dataset_10FoldCV_indexed.csv,xyprojection,6,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate0.01-dropout0.5-fold6.h5,0.9214659929275512,0.8795811533927917,0.01,0.5
+Dataset_10FoldCV_indexed.csv,xyprojection,7,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate0.01-dropout0.5-fold7.h5,0.9319371581077576,0.8795811533927917,0.01,0.5
+Dataset_10FoldCV_indexed.csv,xyprojection,8,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate0.1-dropout0.5-fold8.h5,0.926701545715332,0.9105263352394104,0.1,0.5
+Dataset_10FoldCV_indexed.csv,xyprojection,9,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate0.1-dropout0.5-fold9.h5,0.9263157844543456,0.8684210777282715,0.1,0.5
+Dataset_10FoldCV_indexed.csv,xyprojection,10,Dataset_10FoldCV_indexed_models/ENCODER-xyprojection-l2rate1.0-dropout0.5-fold10.h5,0.9052631855010986,0.8578947186470032,1.0,0.5

@@ -1,0 +1,11 @@
+kfold_file,feature,fold,model_file,val_acc,test_acc,l2_rate,dropout
+Dataset_10FoldCV_indexed.csv,vein,1,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.001-dropout0.5-fold1.h5,0.9578947424888612,0.9476439952850342,0.001,0.5
+Dataset_10FoldCV_indexed.csv,vein,2,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.0001-dropout0.5-fold2.h5,0.9842932224273682,0.9319371581077576,0.0001,0.5
+Dataset_10FoldCV_indexed.csv,vein,3,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.01-dropout0.5-fold3.h5,0.9581151604652404,0.9528796076774596,0.01,0.5
+Dataset_10FoldCV_indexed.csv,vein,4,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.01-dropout0.5-fold4.h5,0.9685863852500916,0.9319371581077576,0.01,0.5
+Dataset_10FoldCV_indexed.csv,vein,5,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.001-dropout0.5-fold5.h5,0.9738219976425172,0.9633507728576659,0.001,0.5
+Dataset_10FoldCV_indexed.csv,vein,6,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.001-dropout0.5-fold6.h5,0.9633507728576659,0.9528796076774596,0.001,0.5
+Dataset_10FoldCV_indexed.csv,vein,7,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.001-dropout0.5-fold7.h5,0.9842932224273682,0.9528796076774596,0.001,0.5
+Dataset_10FoldCV_indexed.csv,vein,8,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.01-dropout0.5-fold8.h5,0.9633507728576659,0.9263157844543456,0.01,0.5
+Dataset_10FoldCV_indexed.csv,vein,9,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.001-dropout0.5-fold9.h5,0.9526315927505492,0.9421052336692808,0.001,0.5
+Dataset_10FoldCV_indexed.csv,vein,10,Dataset_10FoldCV_indexed_models/ENCODER-vein-l2rate0.001-dropout0.5-fold10.h5,0.9736841917037964,0.9315789341926576,0.001,0.5

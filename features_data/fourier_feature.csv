@@ -1,0 +1,11 @@
+kfold_file,feature,fold,model_file,val_acc,test_acc,l2_rate,dropout
+Dataset_10FoldCV_indexed.csv,fourier,1,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.01-dropout0.5-fold1.h5,0.8736842274665833,0.9005235433578491,0.01,0.5
+Dataset_10FoldCV_indexed.csv,fourier,2,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.01-dropout0.5-fold2.h5,0.9005235433578491,0.8952879309654236,0.01,0.5
+Dataset_10FoldCV_indexed.csv,fourier,3,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.1-dropout0.5-fold3.h5,0.926701545715332,0.8848167657852173,0.1,0.5
+Dataset_10FoldCV_indexed.csv,fourier,4,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.001-dropout0.5-fold4.h5,0.8900523781776428,0.9319371581077576,0.001,0.5
+Dataset_10FoldCV_indexed.csv,fourier,5,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.001-dropout0.5-fold5.h5,0.926701545715332,0.9057591557502748,0.001,0.5
+Dataset_10FoldCV_indexed.csv,fourier,6,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.1-dropout0.5-fold6.h5,0.9057591557502748,0.8743455410003662,0.1,0.5
+Dataset_10FoldCV_indexed.csv,fourier,7,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.1-dropout0.5-fold7.h5,0.9005235433578491,0.8900523781776428,0.1,0.5
+Dataset_10FoldCV_indexed.csv,fourier,8,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.1-dropout0.5-fold8.h5,0.9109947681427002,0.9052631855010986,0.1,0.5
+Dataset_10FoldCV_indexed.csv,fourier,9,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.01-dropout0.5-fold9.h5,0.9157894849777222,0.9105263352394104,0.01,0.5
+Dataset_10FoldCV_indexed.csv,fourier,10,Dataset_10FoldCV_indexed_models/ENCODER-fourier-l2rate0.001-dropout0.5-fold10.h5,0.8947368264198303,0.8526315689086914,0.001,0.5

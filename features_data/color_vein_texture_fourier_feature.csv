@@ -1,0 +1,11 @@
+kfold_file,fold,feature,model_file,l2_rate,dropout,val_acc,test_acc
+Dataset_10FoldCV_indexed.csv,1,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold0.h5,0.0008,0.5,0.9736841917037964,0.9790576100349426
+Dataset_10FoldCV_indexed.csv,2,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold1.h5,0.0008,0.5,0.9947643876075745,0.9581151604652405
+Dataset_10FoldCV_indexed.csv,3,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold2.h5,0.0008,0.5,0.9895287752151489,0.9581151604652405
+Dataset_10FoldCV_indexed.csv,4,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold3.h5,0.0008,0.5,0.9947643876075745,0.9895287752151489
+Dataset_10FoldCV_indexed.csv,5,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold4.h5,0.0008,0.5,0.9895287752151489,0.9947643876075745
+Dataset_10FoldCV_indexed.csv,6,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold5.h5,0.0008,0.5,0.9842932224273682,0.9895287752151489
+Dataset_10FoldCV_indexed.csv,7,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold6.h5,0.0008,0.5,0.9790576100349426,0.9790576100349426
+Dataset_10FoldCV_indexed.csv,8,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold7.h5,0.0008,0.5,0.9895287752151489,0.9736841917037964
+Dataset_10FoldCV_indexed.csv,9,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold8.h5,0.0008,0.5,0.9894737005233765,0.9789473414421082
+Dataset_10FoldCV_indexed.csv,10,"color,vein,texture,fourier",Dataset_10FoldCV_indexed_models/ENCODER-color_vein_texture_fourier-l2rate0.0008-dropout0.5-fold9.h5,0.0008,0.5,0.9947368502616882,0.9684210419654846
