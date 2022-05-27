@@ -97,9 +97,9 @@ Our experiments' results on Dataset_10FoldCV_indexed.csv are saved on "LEAF_v20"
 
 **End of 10-fold CV** 
 
-*Valid accuracy*: 0.9979 +- 0.0035 
+*Valid accuracy*: 0.9979 +/- 0.0035 
 
-*Test accuracy*: 0.9969 +- 0.0035 
+*Test accuracy*: 0.9969 +/- 0.0035 
 
 ## Visualisation 
 Command line 
