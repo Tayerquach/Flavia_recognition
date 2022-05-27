@@ -38,16 +38,6 @@ def run_training(features, kfold, fold, l2_rate, dropout):
 			max_epochs = 1000000
 
 	(X_train, y_train), (X_valid, y_valid), (X_test, y_test) = split_train_test_valid(features, kfold, fold, X, y)
-	# if len(X_train) > 1:
-	# 	train_dataset = tf.data.Dataset.from_tensor_slices(([X_train[i] for i in range(len(X_train))], y_train)).batch(32)
-	# 	valid_dataset = tf.data.Dataset.from_tensor_slices(([X_valid[i] for i in range(len(X_valid))], y_valid)).batch(32)
-	# 	test_dataset  = tf.data.Dataset.from_tensor_slices(([X_test[i] for i in range(len(X_test))], y_test)).batch(32)
-  	# else:
-	# 	train_dataset = tf.data.Dataset.from_tensor_slices((X_train[0], y_train)).batch(128)
-	# 	valid_dataset = tf.data.Dataset.from_tensor_slices((X_valid[0], y_valid)).batch(128)
-	# 	test_dataset  = tf.data.Dataset.from_tensor_slices((X_test[0], y_test)).batch(128)
-
-	# model_path = __model_file__.format('_'.join(features), l2_rate, dropout, fold)
 	model_path = os.path.join(outdir, model_path)
 
 	checkpoint = CheckpointCallback(verbose=False)
@@ -69,7 +59,7 @@ def run_training(features, kfold, fold, l2_rate, dropout):
 
 	return val_acc, test_acc
 
-def run_training_encoders(experiment_file):
+def run_training_features(experiment_file):
 	"""run training from a csv file,
     save trained models to 'kfold[:-4]+"_models/"' directory
 	"""
@@ -86,4 +76,4 @@ def run_training_encoders(experiment_file):
 
 if __name__ == "__main__":
 	args = parser.parse_args()
-	run_training_encoders(args.expfile)
+	run_training_features(args.expfile)
