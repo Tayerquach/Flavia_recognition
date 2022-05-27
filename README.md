@@ -69,14 +69,14 @@ python3 run_training_encoders.py feature_file_csv
 
 E.g., The vein feature group is found with the file path "features_data/vein_feature.csv". Then, we run script 
 ```console 
-python3 run_training_encoders.py features_data/vein_feature.csv 
+python3 run_training_features.py features_data/vein_feature.csv 
 ``` 
 
 **2) Training combination** 
 
 E.g., The color and texture feature groups are found with the file path "features_data/color_texture_feature.csv". Then, we run script 
 ```console 
-python3 run_training_encoders.py features_data/color_texture_feature.csv 
+python3 run_training_features.py features_data/color_texture_feature.csv 
 ``` 
 
 # Final results 
