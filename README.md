@@ -1,7 +1,9 @@
 # Flavia_recognition 
 =========================== 
 
-This repository contains codes in the paper **An Effective Leaf Recognition Using  Convolutional Neural Networks Based  Features**, which is submitted to Multimedia Tools and Applications. 
+This repository contains codes in the paper **An Effective Leaf Recognition Using  Convolutional Neural Networks Based  Features**, which is submitted to Multimedia Tools and Applications.
+
+**Note**: To obtain the consistent result on our paper, readers can ignore **Preparation** since all preprocessed files already saved.
 
 # Preparation 
 ## Libraries 
@@ -99,7 +101,7 @@ Our experiments' results on Dataset_10FoldCV_indexed.csv are saved on "LEAF_v20"
 
 *Test accuracy*: 0.9969 +- 0.0035 
 
-# Visualisation 
+## Visualisation 
 Command line 
 ```console 
 python3 visualize_results.py -p predicted_data_file -a actual_data_file  -f false_images_file 
