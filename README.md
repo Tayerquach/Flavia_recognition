@@ -128,10 +128,5 @@ Outputs are then saved in "results" folder.
 - Quach Mai Boi (Dublin City University, mai.quach3@mail.dcu.ie) 
 
 ## References 
-<pre><code> @article{quach2021effective,
-  title={An Effective Leaf Recognition Using Convolutional Neural Networks Based Features},
-  author={Quach, Boi M and Cuong, Dinh V and Pham, Nhung and Huynh, Dang and Nguyen, Binh T},
-  journal={arXiv e-prints},
-  pages={arXiv--2108},
-  year={2021} 
-}</code></pre>
+Quach Mai, Boi, Dinh V. Cuong, Nhung Pham, Dang Huynh, and Binh T. Nguyen. "Leaf Recognition Using Convolutional Neural Networks Based Features."
+Multimedia Tools and Applications (2022). (Accepted)
